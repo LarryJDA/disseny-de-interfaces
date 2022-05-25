@@ -1,0 +1,30 @@
+body {
+    font-size: 16px;
+    margin: 0px;
+}
+
+body header {
+    border: 2px solid black;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    height: 7rem;
+    align-items: center;
+}
+nav div {
+    height: 3rem;
+    width: 6rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
